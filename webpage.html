@@ -1,0 +1,152 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<title> registration </title>
+<style>
+ul
+{
+list-style:none;
+margin:0;
+padding:0px;
+
+}
+body {
+      background: url('https://th.bing.com/th/id/R.602df4049ed4a0b67d4f425c107c99be?rik=R54FS%2brSelmm2Q&riu=http%3a%2f%2fwallsdesk.com%2fwp-content%2fuploads%2f2016%2f05%2fWaterfalls-for-desktop.jpg&ehk=f3gwrgwvwSGj7TnirJRBLfTLkvQQzUWv6pP57sq5FUM%3d&risl=&pid=ImgRaw&r=0') center center fixed;
+      background-size: cover;
+      height: 100vh; /* Set the height to 100% of the viewport height */
+      margin: 0; /* Remove default body margin */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+.name {
+     	      display: inline-block;
+            padding: 5px;
+            border: none ;
+            border-radius: 0;
+            background-color: white;
+            border-bottom: 3px solid black;
+       }
+li
+{
+float:left;
+position:relative;
+
+}
+
+a
+{
+display:block;
+color:black;
+font-size:20px;
+padding:20px;
+
+}
+b
+{
+display:block;
+color:black;
+font-size:25px;
+padding:15px;
+}
+.d{
+padding:200px;
+}
+
+.Dropdown{
+       padding: 0px;
+        margin: 10px;
+        display: block;
+        text-align: center;
+ 
+    }
+   #container {
+            display: flex;           
+            height: 100vh;
+}
+ #container_body {
+             width: -50%;
+        }
+.date-dropdown {
+      display: inline-block;
+      padding: 5px;
+      border: 1px solid black;
+      border-radius: 1px;
+      background-color: white;
+width: 200px;
+    }
+</style>
+</head>
+<body>
+
+<div id = "container">
+<div class = "table table-hover">
+<ul class = "pagination">
+<div id="container_body">
+<ul>
+<li><b href="#">ExploreTour</b></li>
+<li><a href="active">HOME</a></li>
+<li><a href="#">TOURS</a></li>
+<li><a href="#">ABOUT</a></li>
+<li><a href="#">ADVANTAGES</a></li>
+<li><a href="#">BLOG</a></li>
+<li><a href="#">CONTACT</a></li>
+<li><a href="#">RATING</a></li>
+<li><a href="#">HIGHLIGHTS</a></li>
+<li><a href="#">REVIEW</a></li>
+<li><a href="#">DESCRIPTION</a></li>
+<li><a href="#">VIEWER</a></li>
+</ul>
+<b><h1 class="d">The Best Trips Around Iceland Begin With Us</h1></b></d>
+
+<div class="container mt-5 text-center mx-auto" style="width: 50%;">
+<form class="form-inline">
+    <div class="form-group mr-3">
+<div class="dropdown date-dropdown">
+<div class="Dropdown">
+               <button class="btn btn-black dropdown-toggle" type="button" data-toggle="dropdown" >Date                               
+                    <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                     <li><a href="#" class="dropdown-item">January</a></li>
+        <div><li><a href="#" class="dropdown-item">February</a></li></div>
+        <div><li><a href="#" class="dropdown-item">March</a></li></div>
+        <div><li><a href="#" class="dropdown-item">April</a></li></div>
+        <div><li><a href="#" class="dropdown-item">May</a></li></div>
+        <div><li><a href="#" class="dropdown-item">June</a></li></div>
+        <div><li><a href="#" class="dropdown-item">July</a></li></div>
+        <div><li><a href="#" class="dropdown-item">August</a></li></div>
+        <div><li><a href="#" class="dropdown-item">September</a></li></div>
+        <div><li><a href="#" class="dropdown-item">October</a></li></div>
+        <div><li><a href="#" class="dropdown-item">November</a></li></div>
+       <div> <li><a href="#" class="dropdown-item">December</a></li></div>
+                </ul>
+</div></div>
+<div class="form-group mr-3">
+     
+    </div>
+<div class="form-group mr-3">
+ <div class="dropdown date-dropdown">    
+      <div class="dropdown">
+        <button class="btn btn-black dropdown-toggle" type="button" id="range" data-toggle="dropdown" class="name-input" aria-haspopup="true" aria-expanded="false">Range
+        </button>
+        <div class="dropdown-menu" aria-labelledby="range">
+                    <a class="dropdown-item" href="#">1</a>
+          <a class="dropdown-item" href="#">2</a>
+          <a class="dropdown-item" href="#">3</a>
+</div>
+         </div> 
+        </div>
+      </div>
+    </div>
+<div class="form-group mr-3"><input type="submit" onclick="return submit();" value="Search Tours" class="btn btn-primary"></div></div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</div>
+</div>
+</div>
+</div>      
+</body>
+</html>
